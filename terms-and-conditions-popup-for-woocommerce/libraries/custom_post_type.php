@@ -3,7 +3,6 @@ class BeRocket_terms_cond_popup_lib extends BeRocket_custom_post_class {
     public $conditions;
     protected static $instance;
     function __construct() {
-        add_action('terms_cond_popup_framework_construct', array($this, 'init_conditions'));
         $this->post_type_parameters = array(
             'sortable' => true
         );
@@ -13,8 +12,6 @@ class BeRocket_terms_cond_popup_lib extends BeRocket_custom_post_class {
         $this->add_meta_box('conditions', __( 'Conditions', 'terms-and-conditions-popup-for-woocommerce' ));
         parent::__construct();
         add_filter ( 'BeRocket_updater_menu_order_custom_post', array($this, 'menu_order_custom_post') );
-    }
-    public function init_conditions() {
         $this->conditions = new BeRocket_conditions_terms_cond_popup($this->post_name.'[data]', $this->hook_name, array(
             'condition_week_day',
             'condition_user_status',

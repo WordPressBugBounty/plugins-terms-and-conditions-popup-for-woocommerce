@@ -45,8 +45,8 @@ class BeRocket_terms_cond_popup extends BeRocket_Framework {
             'key'         => '',
             'name'        => '',
             'plugin_name' => 'terms_cond_popup',
-            'full_name'   => __('WooCommerce Terms and Conditions Popup', 'terms-and-conditions-popup-for-woocommerce'),
-            'norm_name'   => __('Terms and Conditions', 'terms-and-conditions-popup-for-woocommerce'),
+            'full_name'   => 'WooCommerce Terms and Conditions Popup',
+            'norm_name'   => 'Terms and Conditions',
             'price'       => '',
             'domain'      => 'terms-and-conditions-popup-for-woocommerce',
             'templates'   => terms_cond_popup_TEMPLATE_PATH,
@@ -368,14 +368,14 @@ class BeRocket_terms_cond_popup extends BeRocket_Framework {
     public function get_terms_content_array($popup_pages) {
         $page_id = wc_get_page_id( "terms" );
         $page_data = $this->get_page_content_array($page_id);
-        $page_data['popup_open']['click']['selector'] = '.woocommerce-terms-and-conditions-link';
+        $page_data['popup_open']['click']['selector'] = '.woocommerce-terms-and-conditions-link, .wp-block-woocommerce-checkout-terms-block a:nth-child(1)';
         $popup_pages['term_cond_page'] = $page_data;
         return $popup_pages;
     }
     public function get_policy_content_array($popup_pages) {
         $page_id = wc_privacy_policy_page_id();
         $page_data = $this->get_page_content_array($page_id);
-        $page_data['popup_open']['click']['selector'] = '.woocommerce-privacy-policy-link';
+        $page_data['popup_open']['click']['selector'] = '.woocommerce-privacy-policy-link, .wp-block-woocommerce-checkout-terms-block a:nth-child(2)';
         $page_data['popup_options']['yes_no_buttons'] = array(
             'show' => false,
         );

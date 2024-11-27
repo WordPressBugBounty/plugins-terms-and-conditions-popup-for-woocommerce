@@ -4,8 +4,8 @@ Contributors: berocket, dholovnia
 Donate link: https://berocket.com/?utm_source=wordpress_org&utm_medium=donate&utm_campaign=terms_cond_popup
 Tags: popup, woocommerce popup, terms popup, conditions popup, splash popup for woocommerce, notifcation popup, custom popup, splash popup, popover, pop-up, pop over, lightbox, modal, popup manager, responsive popup, popover, popups, cookie law, sales, simple popup, woocommerce conditions, wordpress popup, terms and conditions popup, terms and conditions splash popup for woocommerce, terms and conditions splash popup, terms and conditions notifcation popup, terms and conditions custom popup, terms and conditions popover, terms and conditions pop-up, terms and conditions pop over, terms and conditions lightbox, terms and conditions modal, terms and conditions popup manager, terms and conditions responsive popup, terms and conditions popups, terms and conditions cookie law, terms and conditions simple popup, terms and conditions wordpress popup, berocket, berocket terms and conditions popup for woocommerce
 Requires at least: 5.0
-Tested up to: 6.6
-Stable tag: 3.5.9
+Tested up to: 6.7
+Stable tag: 3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -90,6 +90,11 @@ If you have problems with our plugins or something is not working as it should, 
 If none of the previous listed actions helps you solve the problem, then, submit a ticket in the forum and describe your problem accurately, specify WordPress and WooCommerce versions you are using and any other information that might help us solve your problem as quickly as possible. Thanks!
 
 == Changelog ==
+
+= 3.6 =
+* Enhancement - Compatibility version: Wordpress 6.7 and WooCommerce 9.4
+* Fix - Translation init errors with WordPress 6.7
+* Fix - Popup for gutenberg builder elements in checkout
 
 = 3.5.9 =
 * Enhancement - Compatibility version: WooCommerce 9.3
