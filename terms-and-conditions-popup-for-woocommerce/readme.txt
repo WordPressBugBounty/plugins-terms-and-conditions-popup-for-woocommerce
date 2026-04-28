@@ -15,11 +15,6 @@ Allows your customers to see the terms and conditions without leaving the checko
 
 Terms and Conditions Popup for WooCommerce plugin allows your customers to see the terms and conditions without leaving the checkout page. Terms and conditions have great advantages for users and administrators in terms of liability and security. Terms and Conditions Popup for WooCommerce gives the possibility to display this type of information in a popup window and so make its consultation quick and simple.
 
-= 🚀 Spring Premium Days is LIVE! =
-**Save 30%** on Pro features across BeRocket plugins. 
-*Boost your store performance and UX with our exclusive seasonal offer.*
-🌿 Improve your store today. [**Limited time offer!**](https://berocket.com/plugins/?utm_source=free_plugin&utm_medium=wporg&utm_campaign=spring_2026&utm_content=top_ad_cta&utm_term=terms_cond_popup)
-
 = Features: =
 &#9989; Popup for WooCommerce terms and conditions
 &#9989; Custom height and width for popup
